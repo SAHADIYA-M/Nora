@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import logoImg from './assets/logo.png';
+import silhouetteImg from './assets/astronaut_silhouette.svg';
 import { 
   Heart, 
   Wind, 
@@ -258,10 +260,9 @@ export function App() {
               title="Space Health Guide Logo"
             >
               <img 
-                src="./Your space health guide.png" 
-                alt="Logo" 
+                src={logoImg} 
+                alt="Space Health Guide Logo" 
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-                onError={(e) => { e.currentTarget.style.display = 'none'; }}
               />
             </div>
 
@@ -270,7 +271,7 @@ export function App() {
                 Astronaut Health Monitor
               </h1>
               <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', marginTop: '2px' }}>
-                Space Bio-Telemetry Monitoring &amp; Simulation Workspace
+                Your Space Health Guide • Bio-Telemetry &amp; Medical Simulation
               </p>
             </div>
           </div>
@@ -393,7 +394,7 @@ export function App() {
                 <BookOpen size={24} color="#ffffff" />
               ) : (
                 <img 
-                  src="./Your space health guide.png" 
+                  src={logoImg} 
                   alt="Space Health Guide Logo" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
                 />
@@ -409,7 +410,7 @@ export function App() {
                     <>
                       <span>Astronaut: Cmdr. Sarah Vance</span>
                       <img 
-                        src="./astronaut_silhouette.svg" 
+                        src={silhouetteImg} 
                         alt="Astronaut Silhouette" 
                         style={{ width: '24px', height: '24px', borderRadius: '6px', objectFit: 'contain' }} 
                       />
@@ -422,8 +423,8 @@ export function App() {
               </div>
               <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '2px' }}>
                 {activeMode === 'nora_muse'
-                  ? 'Defined Operating Instructions, Clinical Precautions, & Emergency Action Protocols.'
-                  : 'Single-Astronaut Bio-Telemetry Stream • Primary Mission Specialist (Suit #02)'}
+                  ? 'Your Space Health Guide — Defined Protocols & Emergency Guidelines'
+                  : 'Your Space Health Guide — Bio-Telemetry Stream (Suit #02)'}
               </p>
             </div>
           </div>

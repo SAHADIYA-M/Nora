@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImg from '../assets/logo.png';
 import { 
   Sparkles, 
   Cpu, 
@@ -64,7 +65,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Logo image slot */}
           <img 
             id="app-logo"
-            src="./Your space health guide.png" 
+            src={logoImg} 
             alt="Website Logo" 
             style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
             onError={(e) => {

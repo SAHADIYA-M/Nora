@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import silhouetteImg from '../assets/astronaut_silhouette.svg';
 import { 
   Heart, 
   Wind, 
@@ -200,7 +201,7 @@ export const AstronautHealthDashboard: React.FC<AstronautHealthDashboardProps> =
             position: 'relative'
           }}>
             <img 
-              src="./astronaut_silhouette.svg" 
+              src={silhouetteImg} 
               alt="Astronaut Silhouette" 
               style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }} 
             />
