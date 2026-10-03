@@ -199,7 +199,11 @@ export const AstronautHealthDashboard: React.FC<AstronautHealthDashboardProps> =
             boxShadow: 'var(--shadow-glow)',
             position: 'relative'
           }}>
-            <User size={28} color="#ffffff" />
+            <img 
+              src="./astronaut_silhouette.svg" 
+              alt="Astronaut Silhouette" 
+              style={{ width: '32px', height: '32px', objectFit: 'contain', filter: 'brightness(0) invert(1)' }} 
+            />
             <div style={{
               position: 'absolute',
               bottom: '-2px',

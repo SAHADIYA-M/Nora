@@ -258,7 +258,7 @@ export function App() {
               title="Space Health Guide Logo"
             >
               <img 
-                src="/Your space health guide.png" 
+                src="./Your space health guide.png" 
                 alt="Logo" 
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 onError={(e) => { e.currentTarget.style.display = 'none'; }}
@@ -393,7 +393,7 @@ export function App() {
                 <BookOpen size={24} color="#ffffff" />
               ) : (
                 <img 
-                  src="/Your space health guide.png" 
+                  src="./Your space health guide.png" 
                   alt="Space Health Guide Logo" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
                 />
@@ -409,9 +409,9 @@ export function App() {
                     <>
                       <span>Astronaut: Cmdr. Sarah Vance</span>
                       <img 
-                        src="/Your space health guide.png" 
-                        alt="Logo" 
-                        style={{ width: '24px', height: '24px', borderRadius: '6px', objectFit: 'cover' }} 
+                        src="./astronaut_silhouette.svg" 
+                        alt="Astronaut Silhouette" 
+                        style={{ width: '24px', height: '24px', borderRadius: '6px', objectFit: 'contain' }} 
                       />
                     </>
                   )}

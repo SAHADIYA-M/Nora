@@ -64,7 +64,7 @@ export const Header: React.FC<HeaderProps> = ({
           {/* Logo image slot */}
           <img 
             id="app-logo"
-            src="/nora_avatar.png" 
+            src="./Your space health guide.png" 
             alt="Website Logo" 
             style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
             onError={(e) => {
