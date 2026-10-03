@@ -7,6 +7,9 @@ Nora is an advanced bio-telemetry monitoring, emergency health alert, and space 
 > [!IMPORTANT]  
 > **Simulation Disclaimer**: This application is a **medical simulation model only** created for operational UI testing, telemetry stream visualization, and emergency protocol demonstrations.
 
+> [!NOTE]
+> **Simulation Focus**: While multiple biometric parameters (Heart Rate, Body Temperature, Sleep Rest, Exercise Time) are displayed on the monitoring dashboard, the active alert threshold engine, simulation triggers, and emergency protocol popups are specifically implemented around **Oxygen Level (% SpO2) variations** (critical breach threshold at < 90% SpO2).
+
 ---
 
 ## 🚀 Key Features
@@ -119,8 +122,3 @@ To run Nora locally on your machine:
    npm run build
    ```
 
----
-
-## 📜 License
-
-This project is open-source under the MIT License.
