@@ -12,7 +12,7 @@ Nora is an advanced bio-telemetry monitoring, emergency health alert, and space 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Real-Time Dynamic Telemetry Stream**: Simulates continuous time-varying bio-telemetry sampling (SpO2 oxygen saturation, heart rate BPM, body temperature °C, sleep rest, and workout metrics) updated every 2.5 seconds.
 * **3 Preset Simulation Modes**:
@@ -27,7 +27,7 @@ Nora is an advanced bio-telemetry monitoring, emergency health alert, and space 
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Frontend Core
 * **React 19**: Component-driven reactive user interface.
@@ -48,7 +48,7 @@ Nora is an advanced bio-telemetry monitoring, emergency health alert, and space 
 
 ---
 
-## 🎨 Design System & Visual Architecture
+## Design System & Visual Architecture
 
 1. **Space Mission Palette**: Deep space slates, clean whites, paired with neon violet (`#7c3aed`), cyan (`#0891b2`), and pink (`#db2777`) accents.
 2. **Color-Coded Status Severity**:
@@ -60,7 +60,7 @@ Nora is an advanced bio-telemetry monitoring, emergency health alert, and space 
 
 ---
 
-## 📂 Project Folder Structure
+## Project Folder Structure
 
 ```
 Nora/
@@ -96,7 +96,7 @@ Nora/
 
 ---
 
-## 💻 Local Development Setup
+## Local Development Setup
 
 To run Nora locally on your machine:
 
